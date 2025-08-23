@@ -10,7 +10,6 @@ This research performs Aspect-Based Sentiment Analysis (ABSA) to analyze public 
 
 -   **/data**: Contains the datasets used for the experiments, including the labeled dataset for training and the larger preprocessed corpus for final analysis.
 -   **/notebooks**: Contains all Jupyter Notebooks that document the entire research workflow in sequential order.
--   **/models**: Contains the saved, fine-tuned models from the experiments for reproducibility.
 -   **/results**: Contains generated outputs such as performance charts, result tables, and visualizations presented in the paper.
 -   `requirements.txt`: A list of all Python libraries required to run the code.
 
