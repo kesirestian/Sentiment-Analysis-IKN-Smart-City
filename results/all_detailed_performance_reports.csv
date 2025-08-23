@@ -1,0 +1,10 @@
+Task,Model/Architecture,Macro F1-Score (Mean ± Std Dev)
+Aspect Detection (ACD),IndoBERT (MTL),0.7940 ± 0.0146
+Aspect Detection (ACD),IndoBERTweet (MTL),0.7715 ± 0.0180
+Aspect Detection (ACD),IndoBERTweet (Pipeline),0.7569 ± 0.0102
+Aspect Detection (ACD),IndoBERT (Pipeline),0.7453 ± 0.0049
+Aspect Detection (ACD),TF-IDF + SVM (Baseline),0.6477 ± 0.0192
+Sentiment Classification (ASC),IndoBERTweet (Pipeline),0.8035 ± 0.0206
+Sentiment Classification (ASC),IndoBERT (Pipeline),0.7974 ± 0.0276
+Sentiment Classification (ASC),IndoBERT (MTL),0.7964 ± 0.0289
+Sentiment Classification (ASC),IndoBERTweet (MTL),0.7835 ± 0.0147
