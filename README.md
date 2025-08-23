@@ -44,3 +44,11 @@ The experiments are organized sequentially in the `/notebooks` directory. Please
 6.  **`10_Results_Analysis.ipynb`**: Compares the performance (Macro F1-score) of all tested models to select the best-performing one.
 7.  **`11_Error_Propagation_Analysis.ipynb`**: Conducts an error analysis on the chosen pipeline model to understand how errors from the first stage affect the second.
 8.  **`12_Label_Prediction_and_Analysis.ipynb`**: Uses the best model (IndoBERTweet Pipeline) to predict labels for the entire unlabeled dataset and generates the final visualizations (e.g., word clouds, sentiment distribution charts) presented in the paper.
+
+## Models
+
+The fine-tuned model files are too large to be hosted directly on GitHub. You can download the best-performing model (IndoBERTweet Pipeline) from the following link:
+
+[**Download Model from Google Drive**](https://bit.ly/indobertweet_pipeline_best_model)
+
+After downloading, please extract the `.zip` file and place the contents into the `/models/pipeline_indobertweet/` directory to run the prediction notebooks.
